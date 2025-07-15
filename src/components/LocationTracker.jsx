@@ -31,7 +31,7 @@ const LocationTracker = () => {
     <div className="p-4 bg-white shadow rounded-lg w-full max-w-md mx-auto mt-6">
       <h2 className="text-xl font-bold mb-4 text-center">Your Location</h2>
 
-      <h1 className="text-center"><b>Air quality</b> : Moderate</h1>
+      
 
       {location ? (
         <>
