@@ -21,7 +21,7 @@ export default function Dashboard() {
         {airQuality ? (
           <AirQualityCanvas airQuality={airQuality} />
         ) : (
-          <p>Overall AQI: 61</p>
+          <p>loading air Quality..</p>
         )}
       </LazySection>
     </div>
