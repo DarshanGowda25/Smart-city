@@ -1,12 +1,39 @@
-# React + Vite
+# 🌆 Smart City Air Quality Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React dashboard that displays **real-time air quality** based on your location using **Geolocation API**, **Canvas API**, and **Intersection Observer API**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://smart-city-dashboard.vercel.app](https://smart-city-dashboard.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📍 Fetches your live GPS coordinates using the **Geolocation API**
+- 🎨 Displays PM2.5 levels visually with a colored circle via **Canvas API**
+- 💤 Lazy-loads sections using the **Intersection Observer API**
+- 🌐 Pulls air quality data from **OpenAQ API**
+- 💅 Beautiful UI with **Tailwind CSS**
+- ⚡ Built with **Vite** for ultra-fast development
+
+---
+
+## 📦 Tech Stack
+
+- **React + Vite**
+- **Tailwind CSS**
+- **Axios**
+- **OpenAQ API**
+- **Web APIs Used**:
+  - Geolocation API
+  - Intersection Observer API
+  - Canvas API
+
+---
+
+## 🛠️ Installation
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/smart-city-dashboard.git
+cd smart-city-dashboard
